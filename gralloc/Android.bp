@@ -12,6 +12,7 @@ cc_library_shared {
 
     header_libs: [
         "display_headers",
+        "device_kernel_headers",
     ],
     shared_libs: [
         "libdl",
@@ -53,6 +54,7 @@ cc_library_shared {
     vendor: true,
     header_libs: [
         "display_headers",
+        "device_kernel_headers",
     ],
     include_dirs: [
         "system/memory/libion/include",
